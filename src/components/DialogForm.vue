@@ -4,7 +4,7 @@
         <div class="modal-content portal-area fa-portal-area">
             <div class="modal-header">
                 <slot name="header"></slot>
-                <button type="button" class="close btn-close" data-dismiss="modal" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="close btn-close" data-dismiss="modal" data-bs-dismiss="modal"></button>
             </div>
             <div class="entry-dialog-layer">
                 <slot></slot>
